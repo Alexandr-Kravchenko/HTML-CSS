@@ -4,46 +4,129 @@
 <head>
     <meta charset="UTF-8">
     <title>Resume</title>
-    <style>
-
-        img {
-            width: 150px;
-        }
-
-        .div-img {
-            width: 200px;
-        }
-
-        .name {
-            display: flex;
-            align-items: center;
-            width: 100%;
-        }
-        .name h1 {
-            height: min-content;
-            text-align: center;
-        }
-        .head {
-            display: flex;
-            flex-direction: row;
-        }
-    </style>
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
-    <header>
-        <div class="head">
-            <div class="div-img">
-                <img src="photo.jpg">
-            </div>
-            <div class="name">
-                <h1>Harry <br/> Potter</h1>
+    <div class="main">
+        <div class="line"></div>
+        <div class="header">
+            <img class="header-avatar" src="./img/harry.jpg" alt="Harry Potter">
+            <div class="header-name">
+                <h1>Harry Potter</h1>
             </div>
         </div>
-    </header>
 
-    <footer>
-    </footer>
+        <div class="links">
+            <a href="#about"> About me</a>
+            <a href="#exp"> Work Experince</a>
+            <a href="#edu"> Education</a>
+            <a href="#software"> Software </a>
+            <a href="#refs"> References </a>
+        </div>
+
+        <div class="info">
+            <div class="block left">
+                <div class="inblock">
+                    <p>
+                        <img src="img/email.png">&nbsp;
+                        <a href="mailto:"> harrypotter@mail.com</a>
+                    </p>
+                    <p>
+                        <img src="img/phone-call.png">&nbsp;
+                        <a href="tel:+380652874299"> +380652874299</a>
+                    </p>
+                    <p>
+                        <img src="img/placeholder.png">&nbsp;
+                        Godric's Hollow
+                    </p>
+                    <p>
+                        <img src="img/skype.png">&nbsp;
+                        HarryImba
+                    </p>
+                    <p>
+                        <img src="img/twitter.png">&nbsp;
+                        @HarryPotter
+                    </p>
+                </div>
+                <div class="inblock">
+                    <h2 id="about">ABOUT ME</h2>
+                    <div class="line"></div>
+                    <p>
+                        I am sociable, so I have got a lot of friends among my schoolmates.
+                        As for me, I appreciate people's honesty, kindness, sense of justice and intelligence.
+                        I don't like when people are rude and aggressive.
+                    </p>
+                </div>
+                <div class="inblock">
+                    <h2 id="software">SOFTWARE</h2>
+                    <div class="line"></div>
+                    <table class="skills">
+                        <tr>
+                            <td>Excel</td>
+                            <td class="skills-rate">★★★★★</td>
+                        </tr>
+                        <tr>
+                            <td>Word</td>
+                            <td class="skills-rate">★★★★☆</td>
+                        </tr>
+                        <tr>
+                            <td>Photoshop</td>
+                            <td class="skills-rate">★★★☆☆</td>
+                        </tr>
+                        <tr>
+                            <td>Audition</td>
+                            <td class="skills-rate">★★☆☆☆</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="inblock">
+                    <h2 id="refs">REFERENCES</h2>
+                    <div class="line"></div>
+                    <ul>
+                        <li>English</li>
+                        <li>German</li>
+                        <li>Ukrainian</li>
+                        <li>Latin</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="block right">
+                <div class="inblock">
+                    <h2 id="idexp">WORK EXPERIENCE</h2>
+
+                    <div class="line"></div>
+
+                    <table class="study">
+                        <tr>
+                            <td class="first">Britain, Hogwarts</td>
+                            <td>He worked as an elite fighter, an Auror, fought against dark magicians and dark magic
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="first">Britain, Hogwarts</td>
+                            <td>He was the Head of the Auror Office.</td>
+                        </tr>
+                        <tr>
+                            <td class="first">Britain, Hogwarts</td>
+                            <td>Lectured on Defense Against the Dark Arts</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="inblock">
+                    <h2 id="edu">EDUCATION</h2>
+                    <div class="line"></div>
+                    <table class="study">
+                        <tr>
+                            <td class="first">Britain, Hogwarts School of Witchcraft and Wizardry</td>
+                            <td>Gryffindor faculty</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="line"></div>
+    </div>
 </body>
 
 </html>
