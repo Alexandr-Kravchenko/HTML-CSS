@@ -1,6 +1,26 @@
 html {
     scroll-behavior: smooth;
-  }
+}
+
+.header {
+    display: flex;
+    width: 900px;
+    height: 36px;
+    position: fixed;
+    left: 72px;
+    background-color: #eae9e9;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    border-bottom-style: solid;
+    border-color: #868484;
+    border-width: 2px;
+}
 
 body {
     margin: 0;
@@ -20,23 +40,34 @@ a {
     padding: 8px;
     width: 900px;
     background-color: #eae9e9;
+    box-shadow: -4px -4px 50px 50px black;
 }
 
-.header {
+.logo {
     display: flex;
     flex-direction: row;
+    margin-top: 15px;
 }
 
-.header-avatar {
+.logo-avatar {
     margin: 12px;
     width: 150px;
 }
 
-.header-name {
+.logo-name {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 100%;
+}
+
+.logo-name h1 {
+    margin-bottom: 8px;
+}
+
+.logo-name h2 {
+    margin: 0;
 }
 
 h1 {
@@ -72,18 +103,22 @@ h1 {
     padding: 5px 5px 5px 5px;
 }
 
-.inblock ul {
+.languages {
     padding: 0px;
     list-style: none;
 }
 
-.inblock ul li::before {
+.languages li::before {
     content: '✓ ';
 }
 
 .inblock h2 {
     margin-top: 18px;
     white-space: nowrap;
+}
+
+table {
+    margin-top: 12px;
 }
 
 .study {
@@ -93,11 +128,11 @@ h1 {
 .study .first {
     width: 30%;
     color: #868484;
+    vertical-align: top
 }
 
-.study table td {
-    vertical-align: top;
-    padding: 25px 0;
+.study td {
+    padding-bottom: 18px; 
 }
 
 .inblock p {
@@ -124,10 +159,9 @@ h1 {
     background-color: #868484;
 }
 
-.links {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
+.year {
+    position: relative;
+    top: 4px;
+    left: 26%;
+    width: 46%;
 }
-
