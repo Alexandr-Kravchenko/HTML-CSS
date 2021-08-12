@@ -1,0 +1,157 @@
+* {
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    background: url(../img/bg_phone.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 375px;
+    height: 275px;
+    color: white;
+    padding-top: 0px;
+    text-align: center;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29.09px;
+    margin: 0;
+    padding-top: 36px;
+}
+
+h2 {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24.24px;
+    margin: 0;
+    padding-top: 50px;
+}
+
+h3 {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15.76px;
+    margin: 0;
+    padding-top: 13px;
+}
+
+a {
+    display: block;
+    color: white;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15.76px;
+    margin: 0;
+    padding-top: 41px;
+}
+
+.filter {
+    background: rgba(198, 108, 73, 0.4);
+    width: 375px;
+    height: 275px;
+}
+
+.container {
+    display: inline-block;
+    cursor: pointer;
+    position: absolute;
+    left: 34px;
+    top: 39px;
+}
+
+.bar1, .bar2, .bar3 {
+    width: 24px;
+    height: 1.5px;
+    background-color: white;
+    margin: 5px 0;
+}
+
+.about {
+    text-align: justify;
+    padding: 25px 29px 8px 34px;
+}
+
+section h1 {
+    text-align: center;
+    font-weight: 600;
+    padding: 0;
+    color: #333333;
+}
+
+section p {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14.54px;
+    color: #333333;
+}
+
+.skills {
+    text-align: center;
+    padding: 25px 32px 25px 34px;
+}
+
+.skills img {
+    height: 218px;
+    width: 224px;
+    padding: 25px 0 26px 0;
+}
+
+.first-column {
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 25px;
+    text-align: left;
+    width: 82px;
+    margin-right: 8px;
+}
+
+.second-column {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: left;
+    width: 211px;
+}
+
+.progress-1 {
+    width: 100%;
+    height: 18px;
+    background-color: #F5D6AB;
+}
+
+.progress-2 {
+    width: 60%;
+    background: #C66C49;
+    z-index: 1;
+    height: 100%;
+}
+
+.progress-2.p75 {
+    width: 75%;
+}
+
+.progress-2.p85 {
+    width: 85%;
+}
+
+.portfolio {
+    text-align: center;
+    background-color: red;
+    padding: 25px 33px 24.53px 34.49px;
+}
+
+.portfolio h3 {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 25px;
+}
+
+.portfolio p {
+    text-align: center;
+}
