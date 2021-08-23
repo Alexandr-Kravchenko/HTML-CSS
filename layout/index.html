@@ -2,173 +2,129 @@
 <html lang="en">
 
 <head>
-    <link rel="stylesheet" type="text/css" href="css/mobile.css">
-    <link rel="stylesheet" type="text/css" href="css/desktop.css">
-
-    <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;500;600;700&display=swap"
-        rel="stylesheet">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0,shrink-to-fit=no">
     <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style/mobile.css">
+    <link rel="stylesheet" type="text/css" href="style/desktop.css">
     <title>Porto</title>
 </head>
 
 <body>
-    <div class="container">
-        <div class="bar1"></div>
-        <div class="bar2"></div>
-        <div class="bar3"></div>
-    </div>
-    <header>
-        <div class="filter">
-            <div class="nav-bar">
-                <div class="nav-bar item">Home</div>
-                <div class="nav-bar item">About</div>
-                <div class="nav-bar item">Skills</div>
-                <div class="nav-bar item">Portfolio</div>
-                <div class="nav-bar item">Contact</div>
-            </div>
-            <h1>Portfolio</h1>
-            <h2>Hi, It’s Théophile Seyrig</h2>
-            <h3>Designer from Porto, Portugal</h3>
-            <a href="#latest">Latest works</a>
+
+    <header class="header">
+        <div class="header__button-menu">
+            <div class="header__button-menu__item-1"></div>
+            <div class="header__button-menu__item-2"></div>
+            <div class="header__button-menu__item-3"></div>
+        </div>
+        <div class="header__main">
+            <h1 class="header__main__title">Portfolio</h1>
+            <h2 class="header__main__greeting">Hi, It’s Théophile Seyrig</h2>
+            <h3 class="header__main__from">Designer from Porto, Portugal</h3>
+            <a class="header__main__latest" href="#latest">Latest works</a>
         </div>
     </header>
 
-    <main>
-        <section class="about">
-            <h1>About</h1>
-            <article>
-                <p>
-                    Lorem ipsum dolor sit amet, Arcu, sed nisi, mi, arcu libero phasellus tincidunt. Rhoncus, diam
-                    penatibus
-                    aliquet tellus, in rutrum augue. Pellentesque senectus risus consectetur et sed purus sed.
-                    Consectetur
-                    adipiscing elit. Egestas porttitor nulla nulla egestas odio pharetra egestas aliquet mollis.
-                </p>
-                <p>
-                    Arcu, sed nisi, mi, arcu libero phasellus tincidunt. Rhoncus, diam penatibus aliquet tellus, in
-                    rutrum
-                    augue. Pellentesque senectus risus consectetur et sed purus sed. Consectetur adipiscing elit.
-                    Egestas
-                    porttitor nulla nulla egestas odio pharetra egestas aliquet mollis. diam penatibus aliquet tellus,
-                    in
-                    rutrum augue. Pellentesque.
-                </p>
-            </article>
+    <main class="main">
+
+        <section class="main__about">
+            <h1 class="main__about__title">About</h1>
+            <p class="main__about__text">
+                Lorem ipsum dolor sit amet, Arcu, sed nisi, mi, arcu libero phasellus tincidunt. Rhoncus, diam penatibus aliquet tellus, in rutrum augue. Pellentesque senectus risus consectetur et sed purus sed. Consectetur adipiscing elit. Egestas porttitor nulla nulla
+                egestas odio pharetra egestas aliquet mollis.
+            </p>
+            <p class="main__about__text">
+                Arcu, sed nisi, mi, arcu libero phasellus tincidunt. Rhoncus, diam penatibus aliquet tellus, in rutrum augue. Pellentesque senectus risus consectetur et sed purus sed. Consectetur adipiscing elit. Egestas porttitor nulla nulla egestas odio pharetra egestas
+                aliquet mollis. diam penatibus aliquet tellus, in rutrum augue. Pellentesque.
+            </p>
         </section>
 
-        <section class="skills">
-            <h1>Skills</h1>
-            <article>
-                <img src="img/Profile Picture.png" alt="Profile photo">
-                <table>
-                    <tr>
-                        <td class="first-column">Profile</td>
-                        <td class="second-column">UI / UX Engineer, Front-end Developer</td>
-                    </tr>
-                    <tr>
-                        <td class="first-column">Front-end Dev</td>
-                        <td class="second-column">
-                            <div class="progress-1">
-                                <div class="progress-2"></div>
-                            </div>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td class="first-column">Tools</td>
-                        <td class="second-column">HTML, CSS, JS, Bootstrap, React</td>
-                    </tr>
-                    <tr>
-                        <td class="first-column">UI Design</td>
-                        <td class="second-column">
-                            <div class="progress-1">
-                                <div class="progress-1">
-                                    <div class="progress-2 p75"></div>
-                                </div>
-                            </div>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td class="first-column">Tools</td>
-                        <td class="second-column">Adobe PS, AI, XD, Figma, InVision</td>
-                    </tr>
-                    <tr>
-                        <td class="first-column">UX Research</td>
-                        <td class="second-column">
-                            <div class="progress-1">
-                                <div class="progress-1">
-                                    <div class="progress-2 p85"></div>
-                                </div>
-                            </div>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td class="first-column">Tools</td>
-                        <td class="second-column">Paper, Pen, Balsamiq</td>
-                    </tr>
-                </table>
-            </article>
+        <section class="main__skills">
+            <h1 class="main__skills__title">Skills</h1>
+            <img class="main__skills__profile-photo" src="img/Profile Picture.png" alt="Profile photo">
+            <table class="main__skills__table">
+                <tr class="main__skills__table__row">
+                    <td class="main__skills__table__row__first-column-title">Profile</td>
+                    <td class="main__skills__table__row__second-column-content">UI / UX Engineer, Front-end Developer</td>
+                </tr>
+                <tr class="main__skills__table__row">
+                    <td class="main__skills__table__row__first-column-title">Front-end Dev</td>
+                    <td class="main__skills__table__row__second-column-content">
+                        <div class="main__skills__table__row__second-column-content__progress-bar">
+                            <div class="main__skills__table__row__second-column-content__progress-bar_progress_64"></div>
+                        </div>
+                    </td>
+                </tr>
+                <tr class="main__skills__table__row">
+                    <td class="main__skills__table__row__first-column-title">Tools</td>
+                    <td class="main__skills__table__row__second-column-content">HTML, CSS, JS, Bootstrap, React</td>
+                </tr>
+                <tr class="main__skills__table__row">
+                    <td class="main__skills__table__row__first-column-title">UI Design</td>
+                    <td class="main__skills__table__row__second-column-content">
+                        <div class="main__skills__table__row__second-column-content__progress-bar">
+                            <div class="main__skills__table__row__second-column-content__progress-bar_progress_76"></div>
+                        </div>
+                    </td>
+                </tr>
+                <tr class="main__skills__table__row">
+                    <td class="main__skills__table__row__first-column-title">Tools</td>
+                    <td class="main__skills__table__row__second-column-content">Adobe PS, AI, XD, Figma, InVision</td>
+                </tr>
+                <tr class="main__skills__table__row">
+                    <td class="main__skills__table__row__first-column-title">UX Research</td>
+                    <td class="main__skills__table__row__second-column-content">
+                        <div class="main__skills__table__row__second-column-content__progress-bar">
+                            <div class="main__skills__table__row__second-column-content__progress-bar_progress_85"></div>
+                        </div>
+                    </td>
+                </tr>
+                <tr class="main__skills__table__row">
+                    <td class="main__skills__table__row__first-column-title">Tools</td>
+                    <td class="main__skills__table__row__second-column-content">Paper, Pen, Balsamiq</td>
+                </tr>
+            </table>
         </section>
 
-        <section class="portfolio">
-            <h1>Portfolio</h1>
-            <h3>UX Research</h3>
-            <article>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ac dictum nibh nam odio cursus id. Diam
-                    massa semper a tincidunt cursus ultricies lectus eget urna.
-                </p>
-                <div class="gallery">
-                    <div class="gallery item-1">
-                        <img src="img/pic1.png" alt="pic1">
-                    </div>
-                    <div class="gallery item-2">
-                        <img src="img/pic2.png" alt="pic2">
-                    </div>
-                    <div class="gallery item-3">
-                        <img src="img/pic3.png" alt="pic3">
-                    </div>
-                    <div class="gallery item-4">
-                        <img src="img/pic4.png" alt="pic4">
-                    </div>
-                </div>
-            </article>
+        <section class="main__portfolio">
+            <h1 class="main__portfolio__title">Portfolio</h1>
+            <h3 class="main__portfolio__subtitle">UX Research</h3>
+            <p class="main__portfolio__text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ac dictum nibh nam odio cursus id. Diam massa semper a tincidunt cursus ultricies lectus eget urna.
+            </p>
+            <div class="main__portfolio__gallery">
+                <img class="main__portfolio__gallery__item-1" src="img/pic1.png" alt="pic1">
+                <img class="main__portfolio__gallery__item-2" src="img/pic2.png" alt="pic2">
+                <img class="main__portfolio__gallery__item-3" src="img/pic3.png" alt="pic3">
+                <img class="main__portfolio__gallery__item-4" src="img/pic4.png" alt="pic4">
+            </div>
         </section>
 
-        <section class="contact">
-            <h1>Get in Touch</h1>
-            <article>
-                <div class="social">
-                    <div class="social left">
-                        <ul>
-                            <li>Dribbble</li>
-                            <li>Behance</li>
-                            <li>CodePen</li>
-                            <li>GitHub</li>
-                            <li>Medium</li>
-                        </ul>
-                    </div>
-                    <div class="social right">
-                        <ul>
-                            <li>Lin kedIn</li>
-                            <li>Facebook</li>
-                            <li>Instagram</li>
-                            <li>Twitter</li>
-                        </ul>
-                    </div>
-                </div>
+        <section class="main__contact">
+            <h1 class="main__contact__title">Get in Touch</h1>
+            <div class="main__contact__social">
+                <ul class="main__contact__social__list">
+                    <li class="main__contact__social__list__item">Dribbble</li>
+                    <li class="main__contact__social__list__item">Behance</li>
+                    <li class="main__contact__social__list__item">CodePen</li>
+                    <li class="main__contact__social__list__item">GitHub</li>
+                    <li class="main__contact__social__list__item">Medium</li>
+                </ul>
+                <ul class="main__contact__social__list">
+                    <li class="main__contact__social__list__item">LinkedIn</li>
+                    <li class="main__contact__social__list__item">Facebook</li>
+                    <li class="main__contact__social__list__item">Instagram</li>
+                    <li class="main__contact__social__list__item">Twitter</li>
+                </ul>
+            </div>
 
-                <div class="footer">
-                    <div class="left">
-                        <a href="mailto:seyrig@mailme.com">seyrig@mailme.com</a>
-                        <a href="tel:+556645665544">+55 6645 665544</a>
-                    </div>
-                    <div class="right">
-                        <img src="img/arrow.png" alt="up">
-                    </div>
-                </div>
+            <div class="main__contact__footer">
+                <a class="main__contact__footer__item" href="mailto:seyrig@mailme.com ">seyrig@mailme.com</a>
+                <a class="main__contact__footer__item" href="tel:+556645665544 ">+55 6645 665544</a>
+                <div class="main__contact__up"></div>
+            </div>
 
-            </article>
         </section>
     </main>
 </body>
