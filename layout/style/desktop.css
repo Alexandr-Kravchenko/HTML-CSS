@@ -1,4 +1,8 @@
 @media only screen and (min-width: 900px) {
+    * {
+        box-sizing: border-box;
+    }
+    
     body {
         margin: 0;
     }
@@ -81,5 +85,30 @@
         font-weight: 400;
     }
 
-    
+    .main__about {
+        padding: 89px 167px 115px 166px;
+    }
+
+    .main__about__title {
+        color: #333333;
+        line-height: 29.09px;
+        font-size: 24px;
+        font-weight: 700;
+        text-align: left;
+        margin-bottom: 76px;
+    }
+
+    .main__about__text {
+        margin-bottom: 36px;
+        color: #333333;
+        line-height: 30px;
+        font-size: 18px;
+        font-weight: 400;
+        text-align: left; 
+    }
+
+    .main__about__text:last-child {
+        margin-bottom: 18px;
+    }
+
 }
