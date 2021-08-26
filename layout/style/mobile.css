@@ -240,6 +240,10 @@ body {
     left: 10px;
 }
 
+.main__portfolio__left, .main__portfolio__right {
+    display: none;
+}
+
 .main__contact {
     padding: 26px 56px 50px 42px;
     display: flex;
@@ -316,5 +320,3 @@ body {
     background-image: url(../img/arrow.png);
     background-size: cover;
 }
-
-/* } */
